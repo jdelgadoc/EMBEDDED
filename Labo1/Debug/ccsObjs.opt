@@ -1,0 +1,1 @@
+"./HAL_I2C.o" "./HAL_OPT3001.o" "./main.o" "./system_msp432p401r.o" "./gcc/startup_msp432p401r_gcc.o" -Wl,-T"../msp432p401r.lds" -Wl,--start-group -l:display.am4fg -l:drivers_msp432p401x.am4fg -l:fatfs.am4fg -l:msp432p4xx_driverlib.a -lgcc -lm -lnosys -lc -Wl,--end-group 
